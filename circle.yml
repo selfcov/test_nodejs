@@ -1,0 +1,3 @@
+test:
+  override:
+    - node show_env.js

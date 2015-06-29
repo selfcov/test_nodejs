@@ -1,0 +1,7 @@
+box: nodejs
+
+build:
+  steps:
+    - script:
+        name: Print
+        code: node show_env.js

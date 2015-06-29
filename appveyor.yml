@@ -1,0 +1,5 @@
+build_script:
+  - node --version
+
+test_script:
+  - node show_env.js
