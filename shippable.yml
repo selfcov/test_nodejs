@@ -1,7 +1,9 @@
 language: node_js
 
 node_js:
-  - "0.12"
+  - "0.11"
   - "0.8"
+
+install: node --version
 
 script: node show_env.js
